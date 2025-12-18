@@ -15,3 +15,68 @@
 [01:40:57] [Server thread/INFO]: OfficialPlayer52 was slain by Zombie
 [01:42:21] [Server thread/INFO]: OfficialPlayer52 was slain by Zombie
 [01:42:37] [Server thread/INFO]: ACE394 was slain by Zombie
+[02:09:45] [Server thread/INFO]: Villager cyx['Farmer'/256, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.36] died, message: 'Farmer was slain by Jeffrey'
+[02:11:17] [Server thread/INFO]: Villager cyx['Toolsmith'/8798, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.41] died, message: 'Toolsmith was slain by Jeffrey'
+[02:12:33] [Server thread/WARN]: ACE394 moved too quickly! 10.023542246018451,0.0,-0.3804778591724016
+[02:12:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2469ms or 49 ticks behind
+[02:19:11] [Server thread/INFO]: OfficialPlayer52 has reached the goal [Zombie Doctor]
+[02:27:35] [Server thread/INFO]: Villager cyx['Villager'/305, l='ServerLevel[world]', x=1309.49, y=65.00, z=-339.50] died, message: 'Villager burned to death'
+[02:36:58] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1348, y=69, z=152} ja{x=1349, y=69, z=153}
+[02:36:59] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1348, y=69, z=152} ja{x=1349, y=69, z=153}
+[02:37:03] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1342, y=68, z=150} ja{x=1343, y=68, z=151}
+[02:37:03] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1342, y=68, z=150} ja{x=1343, y=68, z=151}
+[02:37:03] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1342, y=68, z=150} ja{x=1343, y=68, z=151}
+[02:37:03] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1342, y=68, z=150} ja{x=1343, y=68, z=151}
+[03:02:09] [Server thread/INFO]: Villager cyx['Villager'/89406, l='ServerLevel[world]', x=1414.50, y=68.50, z=-348.50] died, message: 'Villager was slain by Zombie'
+[03:48:17] [Server thread/INFO]: [OfficialPlayer52: Set own game mode to Spectator Mode]
+[03:48:41] [Server thread/INFO]: [OfficialPlayer52: Set own game mode to Survival Mode]
+[04:13:22] [Server thread/INFO]: Villager cyx['Farmer'/89330, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.68] died, message: 'Farmer was slain by Jeffrey'
+[04:14:22] [Server thread/INFO]: Villager cyx['Farmer'/89332, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.38] died, message: 'Farmer was slain by Jeffrey'
+[04:16:32] [Server thread/INFO]: ACE394 was slain by Enderman
+[04:31:22] [Server thread/INFO]: <ACE394> x: 544 z: -1264
+[04:32:20] [Server thread/INFO]: <OfficialPlayer52> 68 158
+[04:32:30] [Server thread/INFO]: <ACE394> x:68 z:-158
+[04:40:10] [Netty Epoll Server IO #18/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at aad.a(SourceFile:50) ~[server-1.21.10.jar:?]
+	at aad.encode(SourceFile:14) ~[server-1.21.10.jar:?]
+	at wz.a(SourceFile:26) ~[server-1.21.10.jar:?]
+	at wz.encode(SourceFile:12) ~[server-1.21.10.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at wk$2.write(SourceFile:524) ~[server-1.21.10.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at wk.c(SourceFile:350) ~[server-1.21.10.jar:?]
+	at wk.b(SourceFile:342) ~[server-1.21.10.jar:?]
+	at wk.a(SourceFile:324) ~[server-1.21.10.jar:?]
+	at wk.a(SourceFile:318) ~[server-1.21.10.jar:?]
+	at wk.exceptionCaught(SourceFile:169) ~[server-1.21.10.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[04:43:34] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1370, y=64, z=-265} ja{x=1370, y=64, z=-266}
+[04:43:34] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1370, y=64, z=-265} ja{x=1370, y=64, z=-266}
+[04:51:08] [Server thread/INFO]: ACE394 has completed the challenge [Hot Tourist Destinations]
+[05:49:16] [Server thread/INFO]: OfficialPlayer52 lost connection: Disconnected
+[05:49:16] [Server thread/INFO]: OfficialPlayer52 left the game
