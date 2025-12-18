@@ -1,0 +1,17 @@
+[00:07:13] [Server thread/INFO]: [OfficialPlayer52: Set own game mode to Spectator Mode]
+[00:08:21] [Server thread/INFO]: [OfficialPlayer52: Set own game mode to Survival Mode]
+[00:21:19] [Server thread/INFO]: Villager cyx['Farmer'/17139, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.53] died, message: 'Farmer was slain by Jeffrey'
+[00:28:52] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1400, y=65, z=-301} ja{x=1400, y=64, z=-301}
+[00:28:52] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1400, y=65, z=-301} ja{x=1400, y=64, z=-301}
+[00:28:52] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1400, y=65, z=-301} ja{x=1400, y=64, z=-301}
+[00:39:23] [Server thread/INFO]: OfficialPlayer52 has made the advancement [Hot Stuff]
+[00:40:04] [Server thread/INFO]: ACE394 has made the advancement [Hot Stuff]
+[01:06:48] [Server thread/INFO]: [OfficialPlayer52: Set own game mode to Spectator Mode]
+[01:07:36] [Server thread/INFO]: [OfficialPlayer52: Set own game mode to Survival Mode]
+[01:23:42] [Server thread/INFO]: Villager cyx['Cleric'/3492, l='ServerLevel[world]', x=1342.47, y=62.00, z=-282.52] died, message: 'Cleric was slain by Zombie'
+[01:37:18] [Server thread/INFO]: OfficialPlayer52 was slain by Zombie
+[01:37:40] [Server thread/INFO]: OfficialPlayer52 was slain by Zombie
+[01:39:59] [Server thread/INFO]: ACE394 was slain by Zombie
+[01:40:57] [Server thread/INFO]: OfficialPlayer52 was slain by Zombie
+[01:42:21] [Server thread/INFO]: OfficialPlayer52 was slain by Zombie
+[01:42:37] [Server thread/INFO]: ACE394 was slain by Zombie
