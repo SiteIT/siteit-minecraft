@@ -1,42 +1,34 @@
-[00:07:13] [Server thread/INFO]: [OfficialPlayer52: Set own game mode to Spectator Mode]
-[00:08:21] [Server thread/INFO]: [OfficialPlayer52: Set own game mode to Survival Mode]
-[00:21:19] [Server thread/INFO]: Villager cyx['Farmer'/17139, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.53] died, message: 'Farmer was slain by Jeffrey'
-[00:28:52] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1400, y=65, z=-301} ja{x=1400, y=64, z=-301}
-[00:28:52] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1400, y=65, z=-301} ja{x=1400, y=64, z=-301}
-[00:28:52] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1400, y=65, z=-301} ja{x=1400, y=64, z=-301}
-[00:39:23] [Server thread/INFO]: OfficialPlayer52 has made the advancement [Hot Stuff]
-[00:40:04] [Server thread/INFO]: ACE394 has made the advancement [Hot Stuff]
-[01:06:48] [Server thread/INFO]: [OfficialPlayer52: Set own game mode to Spectator Mode]
-[01:07:36] [Server thread/INFO]: [OfficialPlayer52: Set own game mode to Survival Mode]
-[01:23:42] [Server thread/INFO]: Villager cyx['Cleric'/3492, l='ServerLevel[world]', x=1342.47, y=62.00, z=-282.52] died, message: 'Cleric was slain by Zombie'
-[01:37:18] [Server thread/INFO]: OfficialPlayer52 was slain by Zombie
-[01:37:40] [Server thread/INFO]: OfficialPlayer52 was slain by Zombie
-[01:39:59] [Server thread/INFO]: ACE394 was slain by Zombie
-[01:40:57] [Server thread/INFO]: OfficialPlayer52 was slain by Zombie
-[01:42:21] [Server thread/INFO]: OfficialPlayer52 was slain by Zombie
-[01:42:37] [Server thread/INFO]: ACE394 was slain by Zombie
-[02:09:45] [Server thread/INFO]: Villager cyx['Farmer'/256, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.36] died, message: 'Farmer was slain by Jeffrey'
-[02:11:17] [Server thread/INFO]: Villager cyx['Toolsmith'/8798, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.41] died, message: 'Toolsmith was slain by Jeffrey'
-[02:12:33] [Server thread/WARN]: ACE394 moved too quickly! 10.023542246018451,0.0,-0.3804778591724016
-[02:12:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2469ms or 49 ticks behind
-[02:19:11] [Server thread/INFO]: OfficialPlayer52 has reached the goal [Zombie Doctor]
-[02:27:35] [Server thread/INFO]: Villager cyx['Villager'/305, l='ServerLevel[world]', x=1309.49, y=65.00, z=-339.50] died, message: 'Villager burned to death'
-[02:36:58] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1348, y=69, z=152} ja{x=1349, y=69, z=153}
-[02:36:59] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1348, y=69, z=152} ja{x=1349, y=69, z=153}
-[02:37:03] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1342, y=68, z=150} ja{x=1343, y=68, z=151}
-[02:37:03] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1342, y=68, z=150} ja{x=1343, y=68, z=151}
-[02:37:03] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1342, y=68, z=150} ja{x=1343, y=68, z=151}
-[02:37:03] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1342, y=68, z=150} ja{x=1343, y=68, z=151}
-[03:02:09] [Server thread/INFO]: Villager cyx['Villager'/89406, l='ServerLevel[world]', x=1414.50, y=68.50, z=-348.50] died, message: 'Villager was slain by Zombie'
-[03:48:17] [Server thread/INFO]: [OfficialPlayer52: Set own game mode to Spectator Mode]
-[03:48:41] [Server thread/INFO]: [OfficialPlayer52: Set own game mode to Survival Mode]
-[04:13:22] [Server thread/INFO]: Villager cyx['Farmer'/89330, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.68] died, message: 'Farmer was slain by Jeffrey'
-[04:14:22] [Server thread/INFO]: Villager cyx['Farmer'/89332, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.38] died, message: 'Farmer was slain by Jeffrey'
-[04:16:32] [Server thread/INFO]: ACE394 was slain by Enderman
-[04:31:22] [Server thread/INFO]: <ACE394> x: 544 z: -1264
-[04:32:20] [Server thread/INFO]: <OfficialPlayer52> 68 158
-[04:32:30] [Server thread/INFO]: <ACE394> x:68 z:-158
-[04:40:10] [Netty Epoll Server IO #18/ERROR]: Error sending packet clientbound/minecraft:disconnect
+[00:30:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5149ms or 102 ticks behind
+[02:09:27] [User Authenticator #2/INFO]: UUID of player ACE394 is 420e85b6-f255-4dae-a9c5-3cbe5f5f9571
+[02:09:27] [Server thread/INFO]: ACE394[/41.193.78.45:56229] logged in with entity id 13009 at (1371.9258146691761, 63.0, -307.6037050828369)
+[02:09:27] [Server thread/INFO]: ACE394 joined the game
+[02:15:22] [Server thread/INFO]: Villager cyx['Librarian'/12918, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.54] died, message: 'Librarian was slain by Jeffrey'
+[02:26:47] [User Authenticator #3/INFO]: UUID of player OfficialPlayer52 is 953eb607-795d-466b-a5e1-bb0e98fc13ff
+[02:26:48] [Server thread/INFO]: OfficialPlayer52[/165.255.244.151:52960] logged in with entity id 16981 at (1371.1362808246424, 63.0, -296.99182018548635)
+[02:26:48] [Server thread/INFO]: OfficialPlayer52 joined the game
+[02:50:14] [Server thread/INFO]: Villager cyx['Librarian'/16967, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.52] died, message: 'Librarian was slain by Jeffrey'
+[02:51:11] [Server thread/INFO]: Villager cyx['Librarian'/16866, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.45] died, message: 'Librarian was slain by Jeffrey'
+[04:24:10] [Server thread/INFO]: OfficialPlayer52 has made the advancement [Into Fire]
+[04:26:48] [Server thread/INFO]: Villager cyx['Librarian'/48071, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.35] died, message: 'Librarian was slain by Jeffrey'
+[04:27:38] [Server thread/INFO]: Villager cyx['Librarian'/48069, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.43] died, message: 'Librarian was slain by Jeffrey'
+[04:32:10] [Server thread/INFO]: ACE394 has made the advancement [Enchanter]
+[05:03:52] [Server thread/INFO]: <ACE394> x: 168 y: 79 z: -36
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1381, y=64, z=-324} ja{x=1134, y=68, z=-791}
+[05:06:55] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
+[05:06:55] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
+[05:06:55] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
+[05:06:56] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
+[05:06:56] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
+[05:06:56] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
+[05:06:56] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
+[05:06:56] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
+[05:10:39] [Server thread/INFO]: OfficialPlayer52 has made the advancement [Take Aim]
+[05:18:50] [Server thread/INFO]: ACE394 has made the advancement [Eye Spy]
+[05:18:51] [Server thread/INFO]: OfficialPlayer52 has made the advancement [Eye Spy]
+[05:23:32] [Server thread/INFO]: <OfficialPlayer52> 847 -49 -1064
+[05:31:02] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=161, y=77, z=-44} ja{x=161, y=76, z=-45}
+[05:31:02] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=161, y=75, z=-46} ja{x=161, y=76, z=-45}
+[05:39:54] [Netty Epoll Server IO #18/ERROR]: Error sending packet clientbound/minecraft:disconnect
 io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
 	at aad.a(SourceFile:50) ~[server-1.21.10.jar:?]
 	at aad.encode(SourceFile:14) ~[server-1.21.10.jar:?]
@@ -75,8 +67,43 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:43:34] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1370, y=64, z=-265} ja{x=1370, y=64, z=-266}
-[04:43:34] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1370, y=64, z=-265} ja{x=1370, y=64, z=-266}
-[04:51:08] [Server thread/INFO]: ACE394 has completed the challenge [Hot Tourist Destinations]
-[05:49:16] [Server thread/INFO]: OfficialPlayer52 lost connection: Disconnected
-[05:49:16] [Server thread/INFO]: OfficialPlayer52 left the game
+[05:41:16] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1418, y=68, z=-284} ja{x=161, y=68, z=-54}
+[05:43:30] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=158, y=28, z=-111} ja{x=158, y=26, z=-110}
+[05:43:45] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=158, y=28, z=-111} ja{x=158, y=33, z=-106}
+[05:43:45] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=158, y=28, z=-111} ja{x=158, y=33, z=-106}
+[05:58:42] [Server thread/INFO]: ACE394 has completed the challenge [Sniper Duel]
+[06:07:45] [Server thread/INFO]: Villager cyx['Toolsmith'/73665, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.39] died, message: 'Toolsmith was slain by Jeffrey'
+[06:08:29] [Server thread/INFO]: Villager cyx['Toolsmith'/73659, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.36] died, message: 'Toolsmith was slain by Jeffrey'
+[06:09:14] [Server thread/INFO]: Villager cyx['Toolsmith'/73631, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.55] died, message: 'Toolsmith was slain by Jeffrey'
+[06:25:50] [Server thread/INFO]: ACE394 has made the advancement [The End?]
+[06:25:50] [Server thread/INFO]: OfficialPlayer52 has made the advancement [The End?]
+[06:25:51] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[06:25:51] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[06:31:38] [Server thread/INFO]: ACE394 has made the advancement [Free the End]
+[06:33:23] [Server thread/INFO]: ACE394 has reached the goal [The Next Generation]
+[06:51:19] [Server thread/INFO]: OfficialPlayer52 has made the advancement [Remote Getaway]
+[06:51:25] [Server thread/INFO]: ACE394 has made the advancement [Remote Getaway]
+[06:54:33] [Server thread/INFO]: OfficialPlayer52 has made the advancement [The City at the End of the Game]
+[06:55:23] [Server thread/INFO]: ACE394 has made the advancement [The City at the End of the Game]
+[06:55:45] [Server thread/INFO]: ACE394 has reached the goal [Sky's the Limit]
+[07:04:05] [Server thread/INFO]: ACE394 was slain by Shulker
+[07:06:56] [Server thread/INFO]: <OfficialPlayer52> -208 -1543
+[07:07:28] [Server thread/INFO]: OfficialPlayer52 has reached the goal [Sky's the Limit]
+[07:09:12] [Server thread/INFO]: ACE394 was slain by Enderman
+[07:10:06] [Server thread/INFO]: [OfficialPlayer52: Teleported ACE394 to OfficialPlayer52]
+[07:18:11] [Server thread/WARN]: ACE394 moved wrongly!
+[07:24:52] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1255, y=72, z=-384} ja{x=1264, y=71, z=-379}
+[07:24:52] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1255, y=72, z=-384} ja{x=1264, y=71, z=-379}
+[07:24:53] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1264, y=71, z=-371} ja{x=1265, y=70, z=-372}
+[07:24:53] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1264, y=71, z=-371} ja{x=1265, y=70, z=-372}
+[07:24:53] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1264, y=71, z=-371} ja{x=1265, y=70, z=-372}
+[07:24:53] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1264, y=71, z=-371} ja{x=1265, y=70, z=-372}
+[07:25:43] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1254, y=70, z=-376} ja{x=1254, y=69, z=-377}
+[07:25:43] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1254, y=70, z=-376} ja{x=1254, y=69, z=-377}
+[07:25:43] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1254, y=70, z=-376} ja{x=1254, y=69, z=-377}
+[07:25:53] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1263, y=69, z=-374} ja{x=1256, y=68, z=-385}
+[07:25:55] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1255, y=68, z=-385} ja{x=1254, y=67, z=-387}
+[07:56:42] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1273, y=73, z=-386} ja{x=1274, y=72, z=-387}
+[07:59:51] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1277, y=70, z=-386} ja{x=1277, y=66, z=-386}
+[08:08:20] [Server thread/INFO]: <ACE394> x: 826 - x:825
+[08:08:50] [Server thread/INFO]: <ACE394> Z;-1076 z:-1077
