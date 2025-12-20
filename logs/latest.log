@@ -1,109 +1,51 @@
-[00:30:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5149ms or 102 ticks behind
-[02:09:27] [User Authenticator #2/INFO]: UUID of player ACE394 is 420e85b6-f255-4dae-a9c5-3cbe5f5f9571
-[02:09:27] [Server thread/INFO]: ACE394[/41.193.78.45:56229] logged in with entity id 13009 at (1371.9258146691761, 63.0, -307.6037050828369)
-[02:09:27] [Server thread/INFO]: ACE394 joined the game
-[02:15:22] [Server thread/INFO]: Villager cyx['Librarian'/12918, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.54] died, message: 'Librarian was slain by Jeffrey'
-[02:26:47] [User Authenticator #3/INFO]: UUID of player OfficialPlayer52 is 953eb607-795d-466b-a5e1-bb0e98fc13ff
-[02:26:48] [Server thread/INFO]: OfficialPlayer52[/165.255.244.151:52960] logged in with entity id 16981 at (1371.1362808246424, 63.0, -296.99182018548635)
-[02:26:48] [Server thread/INFO]: OfficialPlayer52 joined the game
-[02:50:14] [Server thread/INFO]: Villager cyx['Librarian'/16967, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.52] died, message: 'Librarian was slain by Jeffrey'
-[02:51:11] [Server thread/INFO]: Villager cyx['Librarian'/16866, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.45] died, message: 'Librarian was slain by Jeffrey'
-[04:24:10] [Server thread/INFO]: OfficialPlayer52 has made the advancement [Into Fire]
-[04:26:48] [Server thread/INFO]: Villager cyx['Librarian'/48071, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.35] died, message: 'Librarian was slain by Jeffrey'
-[04:27:38] [Server thread/INFO]: Villager cyx['Librarian'/48069, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.43] died, message: 'Librarian was slain by Jeffrey'
-[04:32:10] [Server thread/INFO]: ACE394 has made the advancement [Enchanter]
-[05:03:52] [Server thread/INFO]: <ACE394> x: 168 y: 79 z: -36
-[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1381, y=64, z=-324} ja{x=1134, y=68, z=-791}
-[05:06:55] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
-[05:06:55] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
-[05:06:55] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
-[05:06:56] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
-[05:06:56] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
-[05:06:56] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
-[05:06:56] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
-[05:06:56] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1131, y=71, z=-791} ja{x=1130, y=70, z=-791}
-[05:10:39] [Server thread/INFO]: OfficialPlayer52 has made the advancement [Take Aim]
-[05:18:50] [Server thread/INFO]: ACE394 has made the advancement [Eye Spy]
-[05:18:51] [Server thread/INFO]: OfficialPlayer52 has made the advancement [Eye Spy]
-[05:23:32] [Server thread/INFO]: <OfficialPlayer52> 847 -49 -1064
-[05:31:02] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=161, y=77, z=-44} ja{x=161, y=76, z=-45}
-[05:31:02] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=161, y=75, z=-46} ja{x=161, y=76, z=-45}
-[05:39:54] [Netty Epoll Server IO #18/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at aad.a(SourceFile:50) ~[server-1.21.10.jar:?]
-	at aad.encode(SourceFile:14) ~[server-1.21.10.jar:?]
-	at wz.a(SourceFile:26) ~[server-1.21.10.jar:?]
-	at wz.encode(SourceFile:12) ~[server-1.21.10.jar:?]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at wk$2.write(SourceFile:524) ~[server-1.21.10.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at wk.c(SourceFile:350) ~[server-1.21.10.jar:?]
-	at wk.b(SourceFile:342) ~[server-1.21.10.jar:?]
-	at wk.a(SourceFile:324) ~[server-1.21.10.jar:?]
-	at wk.a(SourceFile:318) ~[server-1.21.10.jar:?]
-	at wk.exceptionCaught(SourceFile:169) ~[server-1.21.10.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+[22:38:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[22:38:33] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-7.0.61.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-7.0.61.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-7.0.61.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-7.0.61.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[05:41:16] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1418, y=68, z=-284} ja{x=161, y=68, z=-54}
-[05:43:30] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=158, y=28, z=-111} ja{x=158, y=26, z=-110}
-[05:43:45] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=158, y=28, z=-111} ja{x=158, y=33, z=-106}
-[05:43:45] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=158, y=28, z=-111} ja{x=158, y=33, z=-106}
-[05:58:42] [Server thread/INFO]: ACE394 has completed the challenge [Sniper Duel]
-[06:07:45] [Server thread/INFO]: Villager cyx['Toolsmith'/73665, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.39] died, message: 'Toolsmith was slain by Jeffrey'
-[06:08:29] [Server thread/INFO]: Villager cyx['Toolsmith'/73659, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.36] died, message: 'Toolsmith was slain by Jeffrey'
-[06:09:14] [Server thread/INFO]: Villager cyx['Toolsmith'/73631, l='ServerLevel[world]', x=1407.50, y=63.06, z=-324.55] died, message: 'Toolsmith was slain by Jeffrey'
-[06:25:50] [Server thread/INFO]: ACE394 has made the advancement [The End?]
-[06:25:50] [Server thread/INFO]: OfficialPlayer52 has made the advancement [The End?]
-[06:25:51] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[06:25:51] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
-[06:31:38] [Server thread/INFO]: ACE394 has made the advancement [Free the End]
-[06:33:23] [Server thread/INFO]: ACE394 has reached the goal [The Next Generation]
-[06:51:19] [Server thread/INFO]: OfficialPlayer52 has made the advancement [Remote Getaway]
-[06:51:25] [Server thread/INFO]: ACE394 has made the advancement [Remote Getaway]
-[06:54:33] [Server thread/INFO]: OfficialPlayer52 has made the advancement [The City at the End of the Game]
-[06:55:23] [Server thread/INFO]: ACE394 has made the advancement [The City at the End of the Game]
-[06:55:45] [Server thread/INFO]: ACE394 has reached the goal [Sky's the Limit]
-[07:04:05] [Server thread/INFO]: ACE394 was slain by Shulker
-[07:06:56] [Server thread/INFO]: <OfficialPlayer52> -208 -1543
-[07:07:28] [Server thread/INFO]: OfficialPlayer52 has reached the goal [Sky's the Limit]
-[07:09:12] [Server thread/INFO]: ACE394 was slain by Enderman
-[07:10:06] [Server thread/INFO]: [OfficialPlayer52: Teleported ACE394 to OfficialPlayer52]
-[07:18:11] [Server thread/WARN]: ACE394 moved wrongly!
-[07:24:52] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1255, y=72, z=-384} ja{x=1264, y=71, z=-379}
-[07:24:52] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1255, y=72, z=-384} ja{x=1264, y=71, z=-379}
-[07:24:53] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1264, y=71, z=-371} ja{x=1265, y=70, z=-372}
-[07:24:53] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1264, y=71, z=-371} ja{x=1265, y=70, z=-372}
-[07:24:53] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1264, y=71, z=-371} ja{x=1265, y=70, z=-372}
-[07:24:53] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1264, y=71, z=-371} ja{x=1265, y=70, z=-372}
-[07:25:43] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1254, y=70, z=-376} ja{x=1254, y=69, z=-377}
-[07:25:43] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1254, y=70, z=-376} ja{x=1254, y=69, z=-377}
-[07:25:43] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1254, y=70, z=-376} ja{x=1254, y=69, z=-377}
-[07:25:53] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1263, y=69, z=-374} ja{x=1256, y=68, z=-385}
-[07:25:55] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1255, y=68, z=-385} ja{x=1254, y=67, z=-387}
-[07:56:42] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1273, y=73, z=-386} ja{x=1274, y=72, z=-387}
-[07:59:51] [Server thread/WARN]: Mismatch in destroy block pos: ja{x=1277, y=70, z=-386} ja{x=1277, y=66, z=-386}
-[08:08:20] [Server thread/INFO]: <ACE394> x: 826 - x:825
-[08:08:50] [Server thread/INFO]: <ACE394> Z;-1076 z:-1077
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1302) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-7.0.61.jar:?]
+	... 9 more
+[22:38:34] [ServerMain/INFO]: Loaded 1461 recipes
+[22:38:34] [ServerMain/INFO]: Loaded 1574 advancements
+[22:38:34] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[22:38:34] [Server thread/INFO]: Loading properties
+[22:38:34] [Server thread/INFO]: Default game type: SURVIVAL
+[22:38:34] [Server thread/INFO]: Generating keypair
+[22:38:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:38:34] [Server thread/INFO]: Using epoll channel type
+[22:38:34] [Server thread/INFO]: Preparing level "world"
+[22:38:34] [Server thread/INFO]: Loading 0 persistent chunks...
+[22:38:34] [Server thread/INFO]: Preparing spawn area: 100%
+[22:38:34] [Server thread/INFO]: Time elapsed: 11 ms
+[22:38:34] [Server thread/INFO]: Done (0.174s)! For help, type "help"
+[22:39:34] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[22:40:12] [User Authenticator #1/INFO]: UUID of player OfficialPlayer52 is 953eb607-795d-466b-a5e1-bb0e98fc13ff
+[22:40:13] [Server thread/INFO]: OfficialPlayer52[/165.255.244.151:40416] logged in with entity id 115 at (1381.762499988079, 63.0, -321.4761454062213)
+[22:40:13] [Server thread/INFO]: OfficialPlayer52 joined the game
+[22:40:14] [Server thread/WARN]: Ignoring chat session from OfficialPlayer52 due to missing Services public key
