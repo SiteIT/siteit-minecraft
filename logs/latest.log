@@ -1,51 +1,66 @@
-[22:38:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[22:38:33] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-7.0.61.jar:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-7.0.61.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-7.0.61.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-7.0.61.jar:?]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+[16:59:42] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:59:43] [ServerMain/INFO]: Loaded 1461 recipes
+[16:59:43] [ServerMain/INFO]: Loaded 1574 advancements
+[16:59:43] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[16:59:43] [Server thread/INFO]: Loading properties
+[16:59:43] [Server thread/INFO]: Default game type: SURVIVAL
+[16:59:43] [Server thread/INFO]: Generating keypair
+[16:59:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:59:43] [Server thread/INFO]: Using epoll channel type
+[16:59:43] [Server thread/INFO]: Preparing level "world"
+[16:59:43] [Server thread/INFO]: Loading 0 persistent chunks...
+[16:59:43] [Server thread/INFO]: Preparing spawn area: 100%
+[16:59:43] [Server thread/INFO]: Time elapsed: 14 ms
+[16:59:43] [Server thread/INFO]: Done (0.237s)! For help, type "help"
+[17:00:34] [User Authenticator #1/INFO]: UUID of player ACE394 is 420e85b6-f255-4dae-a9c5-3cbe5f5f9571
+[17:00:35] [Server thread/INFO]: ACE394[/41.193.78.45:54101] logged in with entity id 160 at (1365.4869034709716, 10.0, -316.46088805804345)
+[17:00:35] [Server thread/INFO]: ACE394 joined the game
+[17:35:10] [Server thread/INFO]: ACE394 lost connection: Disconnected
+[17:35:10] [Server thread/INFO]: ACE394 left the game
+[17:36:10] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[17:43:48] [User Authenticator #2/INFO]: UUID of player ACE394 is 420e85b6-f255-4dae-a9c5-3cbe5f5f9571
+[17:43:48] [Server thread/INFO]: ACE394[/41.193.78.45:60663] logged in with entity id 6965 at (1347.7090070107065, 63.0, -303.58579370209935)
+[17:43:48] [Server thread/INFO]: ACE394 joined the game
+[17:54:12] [Netty Epoll Server IO #24/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at aad.a(SourceFile:50) ~[server-1.21.10.jar:?]
+	at aad.encode(SourceFile:14) ~[server-1.21.10.jar:?]
+	at wz.a(SourceFile:26) ~[server-1.21.10.jar:?]
+	at wz.encode(SourceFile:12) ~[server-1.21.10.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at wk$2.write(SourceFile:524) ~[server-1.21.10.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at wk.c(SourceFile:350) ~[server-1.21.10.jar:?]
+	at wk.b(SourceFile:342) ~[server-1.21.10.jar:?]
+	at wk.a(SourceFile:324) ~[server-1.21.10.jar:?]
+	at wk.a(SourceFile:318) ~[server-1.21.10.jar:?]
+	at wk.exceptionCaught(SourceFile:169) ~[server-1.21.10.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.net.UnknownHostException: api.minecraftservices.com
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
-	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1302) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-7.0.61.jar:?]
-	... 9 more
-[22:38:34] [ServerMain/INFO]: Loaded 1461 recipes
-[22:38:34] [ServerMain/INFO]: Loaded 1574 advancements
-[22:38:34] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[22:38:34] [Server thread/INFO]: Loading properties
-[22:38:34] [Server thread/INFO]: Default game type: SURVIVAL
-[22:38:34] [Server thread/INFO]: Generating keypair
-[22:38:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:38:34] [Server thread/INFO]: Using epoll channel type
-[22:38:34] [Server thread/INFO]: Preparing level "world"
-[22:38:34] [Server thread/INFO]: Loading 0 persistent chunks...
-[22:38:34] [Server thread/INFO]: Preparing spawn area: 100%
-[22:38:34] [Server thread/INFO]: Time elapsed: 11 ms
-[22:38:34] [Server thread/INFO]: Done (0.174s)! For help, type "help"
-[22:39:34] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:40:12] [User Authenticator #1/INFO]: UUID of player OfficialPlayer52 is 953eb607-795d-466b-a5e1-bb0e98fc13ff
-[22:40:13] [Server thread/INFO]: OfficialPlayer52[/165.255.244.151:40416] logged in with entity id 115 at (1381.762499988079, 63.0, -321.4761454062213)
-[22:40:13] [Server thread/INFO]: OfficialPlayer52 joined the game
-[22:40:14] [Server thread/WARN]: Ignoring chat session from OfficialPlayer52 due to missing Services public key
+[19:58:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2256ms or 45 ticks behind
+[20:16:21] [User Authenticator #3/INFO]: UUID of player OfficialPlayer52 is 953eb607-795d-466b-a5e1-bb0e98fc13ff
+[20:16:21] [Server thread/INFO]: OfficialPlayer52[/165.255.244.151:37672] logged in with entity id 62860 at (1378.1986054616218, 63.0, -317.4441377599694)
+[20:16:21] [Server thread/INFO]: OfficialPlayer52 joined the game
