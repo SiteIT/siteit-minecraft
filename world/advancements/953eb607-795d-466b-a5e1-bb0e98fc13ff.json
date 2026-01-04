@@ -23,6 +23,7 @@
       "minecraft:grove": "2025-12-11 21:45:22 +0200",
       "minecraft:meadow": "2025-12-11 21:44:58 +0200",
       "minecraft:birch_forest": "2025-12-11 21:14:05 +0200",
+      "minecraft:savanna": "2026-01-04 20:25:57 +0200",
       "minecraft:plains": "2025-12-11 21:32:39 +0200"
     },
     "done": false
@@ -399,6 +400,7 @@
       "minecraft:skeleton": "2025-12-11 21:59:26 +0200",
       "minecraft:phantom": "2025-12-19 06:14:02 +0200",
       "minecraft:witch": "2025-12-19 03:44:10 +0200",
+      "minecraft:wither_skeleton": "2026-01-04 20:36:20 +0200",
       "minecraft:ghast": "2025-12-13 00:22:16 +0200",
       "minecraft:shulker": "2025-12-19 06:54:50 +0200",
       "minecraft:cave_spider": "2025-12-18 03:14:56 +0200",
@@ -407,7 +409,8 @@
       "minecraft:spider": "2025-12-11 21:21:21 +0200",
       "minecraft:zombie": "2025-12-11 21:55:03 +0200",
       "minecraft:creeper": "2025-12-11 22:44:09 +0200",
-      "minecraft:drowned": "2025-12-11 22:27:21 +0200"
+      "minecraft:drowned": "2025-12-11 22:27:21 +0200",
+      "minecraft:wither": "2026-01-04 21:03:00 +0200"
     },
     "done": false
   },
@@ -1597,7 +1600,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-12-11 23:23:42 +0200",
       "minecraft:nether_wastes": "2025-12-11 23:23:47 +0200",
-      "minecraft:basalt_deltas": "2025-12-17 23:08:34 +0200"
+      "minecraft:basalt_deltas": "2025-12-17 23:08:34 +0200",
+      "minecraft:warped_forest": "2026-01-04 20:25:27 +0200"
     },
     "done": false
   },
@@ -3308,6 +3312,72 @@
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2025-12-19 10:20:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2026-01-04 20:30:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2026-01-04 21:00:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2026-01-04 21:02:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2026-01-04 21:03:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2026-01-04 21:00:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2026-01-04 20:19:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2026-01-04 20:36:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-01-04 20:59:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2026-01-04 21:02:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-01-04 20:59:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2026-01-04 20:36:21 +0200"
     },
     "done": true
   },

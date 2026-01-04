@@ -64,3 +64,18 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 [20:16:21] [User Authenticator #3/INFO]: UUID of player OfficialPlayer52 is 953eb607-795d-466b-a5e1-bb0e98fc13ff
 [20:16:21] [Server thread/INFO]: OfficialPlayer52[/165.255.244.151:37672] logged in with entity id 62860 at (1378.1986054616218, 63.0, -317.4441377599694)
 [20:16:21] [Server thread/INFO]: OfficialPlayer52 joined the game
+[20:36:21] [Server thread/INFO]: OfficialPlayer52 has made the advancement [Spooky Scary Skeleton]
+[20:50:21] [Server thread/INFO]: <OfficialPlayer52> 1370 -310
+[21:02:08] [Server thread/INFO]: OfficialPlayer52 has made the advancement [Withering Heights]
+[21:02:08] [Server thread/INFO]: ACE394 has made the advancement [Withering Heights]
+[21:02:09] [Server thread/INFO]: OfficialPlayer52 has reached the goal [Hired Help]
+[21:02:09] [Server thread/INFO]: ACE394 has reached the goal [Hired Help]
+[21:02:51] [Server thread/INFO]: ACE394 has reached the goal [Postmortal]
+[21:02:58] [Server thread/INFO]: ACE394 was shot by a skull from Wither
+[21:07:54] [Server thread/INFO]: <OfficialPlayer52> -2 -1001
+[21:14:31] [Server thread/INFO]: ACE394 lost connection: Timed out
+[21:14:31] [Server thread/INFO]: ACE394 left the game
+[21:14:31] [Server thread/WARN]: handleDisconnection() called twice
+[21:15:37] [User Authenticator #4/INFO]: UUID of player ACE394 is 420e85b6-f255-4dae-a9c5-3cbe5f5f9571
+[21:15:37] [Server thread/INFO]: ACE394[/41.193.78.45:52380] logged in with entity id 91241 at (262.32209134505024, 1.0, -7.711619781501758)
+[21:15:37] [Server thread/INFO]: ACE394 joined the game
